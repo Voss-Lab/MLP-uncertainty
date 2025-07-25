@@ -1,0 +1,6 @@
+[submodule "external/ase_multiproc_calc"]
+	path = external/ase_multiproc_calc
+	url = https://github.com/sumanbhasker89/ase_multiproc_calc.git
+[submodule "external/mace_node"]
+	path = external/mace_node
+	url = https://github.com/sumanbhasker89/mace_node.git
