@@ -1,0 +1,14 @@
+DESCR
+  Structural fingerprint setup for Pt.
+END DESCR
+
+ATOM Pt
+
+ENV  2
+Pt
+H
+
+RMIN 0.75d0
+
+BASIS type=Chebyshev
+radial_Rc = 8.0  radial_N = 18 angular_Rc = 6.5  angular_N = 4    

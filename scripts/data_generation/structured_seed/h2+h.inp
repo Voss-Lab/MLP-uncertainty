@@ -1,0 +1,38 @@
+"""
+This script generates a simulation box populated with molecular and atomic hydrogen.
+It outputs the final structure to a PDB file named `out.pdb`.
+Additionally, a buffer zone of 10 Å is added around the box.
+
+Prerequisites:
+- Ensure Packmol is installed on your system. Please cite the following reference if the Packmol package was used:
+L. Martínez, R. Andrade, E. G. Birgin, J. M. Martínez. Packmol: A package for building initial configurations for molecular dynamics simulations. Journal of Computational Chemistry, 30(13):2157-2164, 2009.
+- Place the 'h2_box.pdb' and 'h_box.pdb' files (containing respective atomic coordinates) in the same directory as this script.
+
+To run this script with Packmol, save it as 'h2.inp' and use the following command:
+packmol < h2+h.inp
+
+Output:
+- A PDB file named 'out.pdb' containing the final molecular configuration.
+
+"""
+
+# General settings
+seed -1			 # Random seed for reproducibility
+tolerance 2.0	 # Minimum distance tolerance (in Å) between molecules
+filetype pdb
+output out.pdb
+
+# Define the molecular structure and placement
+# adjust the number of atoms, molecules, and box dimensions as needed
+structure h2_box.pdb
+  number 1
+  inside cube 0. 0. 0. 5.
+end structure
+
+structure h_box.pdb
+  number 3
+  inside cube 0. 0. 0. 5. 
+end structure
+
+# Add buffer to the box
+add_box_sides 10

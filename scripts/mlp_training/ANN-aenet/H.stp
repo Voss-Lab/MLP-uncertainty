@@ -1,0 +1,14 @@
+DESCR
+  Structural fingerprint setup for H.
+END DESCR
+
+ATOM H
+
+ENV  2
+H
+Pt
+
+RMIN 0.75d0
+
+BASIS type=Chebyshev
+radial_Rc = 8.0  radial_N = 18 angular_Rc = 6.5  angular_N = 4    
