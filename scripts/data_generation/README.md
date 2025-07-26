@@ -2,7 +2,7 @@
 
 This directory contains scripts and input files used to generate datasets for training and benchmarking the machine learning potential (MLP).
 
-# Folder Descriptions
+## Folder Descriptions
 
 1. **`reduced_scale_model`**  
    Initial structure used to kickstart active learning, representing a simplified version of the benchmark system.
