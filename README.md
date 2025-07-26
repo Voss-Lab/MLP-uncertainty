@@ -6,4 +6,4 @@ This repository serves as the central hub for a machine learning potentials (MLP
 
 This repository includes two modified forks as Git submodules:
 - [`external/mace_node`](https://github.com/sumanbhasker89/mace_node) — custom version of [MACE](https://github.com/ACEsuit/mace)
-- [`external/ase_multiproc_calc`](https://github.com/sumanbhasker89/ase_multiproc_calc) — modified [ASE](https://gitlab.com/ase/ase) with multi-processing calculator support
+- [`external/ase_multiproc_calc`](https://github.com/sumanbhasker89/ase_multiproc_calc) — modified [ASE](https://gitlab.com/ase/ase) with multiprocessing calculator support
