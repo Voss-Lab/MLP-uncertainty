@@ -1,6 +1,6 @@
 # External Dependencies
 
-This directory contains two external repositories used in the MLP project, included as Git submodules. These are custom forks of [MACE](https://github.com/ACEsuit/mace) and [ASE](https://gitlab.com/ase/ase).
+This directory contains two external repositories used in the MLP project, included as Git submodules. These are custom forks (private clones) of [MACE](https://github.com/ACEsuit/mace) and [ASE](https://gitlab.com/ase/ase).
 
 ## Submodules
 
