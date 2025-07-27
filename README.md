@@ -21,3 +21,10 @@ The `scripts/` folder organizes all supporting code used throughout the MLP work
 ## Training Data
 
 The `xyz_files/` directory contains the datasets used for training in extended XYZ format. These include the initial seeds and active learning configurations.
+
+## Example Simulations
+
+The `examples/` directory contains usage examples of ensemble-based simulations and uncertainty-driven sampling:
+
+- `ASE_multiproc_calc/`: Demonstrates a multiprocessing-enabled ASE interface for evaluating ANN ensemble models (e.g., aenet) on CPUs, enabling fast MD with uncertainty estimation.
+- `MACE_energybias/`: Shows how to perform uncertainty-biased simulations using the MACE ASE calculator by modifying the potential energy with an ensemble uncertainty-based Gaussian bias.
