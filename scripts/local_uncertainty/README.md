@@ -17,7 +17,6 @@ Tools for analyzing uncertainty in MPNN ensemble simulated dynamics.
 - `force`
   - `plot_force_sd.py`: Plots force standard deviation over time for selected atoms, overlaid with coordination numbers and adsorption states (Figure 4a).
   - `map_local_uncertainty.py`: Computes 3σ thresholds for node energy SD and force norm SD, identifies first crossings for atoms exceeding thresholds, and generates a summary text file and a cluster plot (Figure 4b).
-  - Additional files (`force_sd.h5`, `md_data.h5`, `err`, `first_crossings.txt`,`cluster_species.png`) shows the processed data and intermediate results.
 
 - `structural_analysis`
   - `get_coord.py`: Computes atomic coordination numbers from a trajectory and saves them in an HDF5 file for further analysis or plotting.
