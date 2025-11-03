@@ -12,11 +12,11 @@ This repository includes two modified forks as Git submodules:
 
 The `scripts/` folder organizes all supporting code used throughout the MLP workflow:
 
-- `data_generation/` — Scripts and structure files used in model initialization and benchmarking:
-- `mlp_training/` — Input and analysis scripts for training machine learning potentials:
-- `global_uncertainty/` — Scripts for analyzing uncertainty vs. error correlation in total energy:
-- `local_uncertainty/` — Scripts for investigating uncertainty in atomic energy and forces, and associated structural analysis:
-- `active_learning/` — Scripts to select retraining data based on local energy uncertainty:
+- `data_generation/` — structure files used in model initialization and benchmarking:
+- `mlp_training/` — training and analysis of machine learning potentials:
+- `global_uncertainty/` — analysis of uncertainty in ensemble predicted total energy:
+- `local_uncertainty/` — Investigations of uncertainty in atomic energy and forces, and associated structural analysis:
+- `active_learning/` — retraining based on local energy uncertainty sampling:
 
 ## Training Data
 
