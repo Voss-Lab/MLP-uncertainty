@@ -1,6 +1,6 @@
-# MLP-Project
+# MLP-uncertainty
 
-This repository serves as the central hub for a machine learning potentials (MLP) project, integrating customized versions of MACE and ASE along with a comprehensive suite of utility scripts for data generation, training, active learning, and analysis. The atomic structures used for training are also included as .xyz files for transparency and reproducibility.
+This repository serves as the central hub for a machine learning potentials (MLP) project, integrating customized versions of MACE and ASE along with a comprehensive suite of utility scripts for data generation, training, uncertainty analysis (global, local), and active learning. The atomic structures used for training are also included as .xyz files for transparency and reproducibility.
 
 ## Submodules
 
@@ -14,9 +14,9 @@ The `scripts/` folder organizes all supporting code used throughout the MLP work
 
 - `data_generation/` — Scripts and structure files used in model initialization and benchmarking:
 - `mlp_training/` — Input and analysis scripts for training machine learning potentials:
-- `nn_ensembles/` — Scripts for analyzing uncertainty vs. error correlation:
-- `active_learning/` — Scripts to select retraining data based on local uncertainty (spikes):
-- `uncertainty_analysis/` — Post-MD tools for ensemble uncertainty analysis:
+- `global_uncertainty/` — Scripts for analyzing uncertainty vs. error correlation in total energy:
+- `local_uncertainty/` — Scripts for investigating uncertainty in energy and forces, and associated structural analysis:
+- `active_learning/` — Scripts to select retraining data based on local energy uncertainty (spikes):
 
 ## Training Data
 
@@ -28,3 +28,4 @@ The `examples/` directory contains usage examples of ensemble-based simulations 
 
 - `ASE_multiproc_calc/`: Demonstrates a multiprocessing-enabled ASE interface for evaluating ANN ensemble models (e.g., aenet) on CPUs, enabling fast MD with uncertainty estimation.
 - `MACE_energybias/`: Shows how to perform uncertainty-biased simulations using the MACE ASE calculator by modifying the potential energy with an ensemble uncertainty-based Gaussian bias.
+
