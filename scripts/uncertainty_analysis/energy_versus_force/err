@@ -1,0 +1,5 @@
+2025-11-03 11:19:24,980 - INFO - Loaded node_sd from md_data.h5, shape = (1001, 1312)
+2025-11-03 11:19:24,986 - INFO - Loaded forcenormstd from force_sd.h5, shape = (1001, 1312)
+2025-11-03 11:19:25,006 - INFO - Results written to first_crossings.txt
+2025-11-03 11:19:25,536 - INFO - Plot saved to cluster_species.png
+2025-11-03 11:19:25,536 - INFO - Node-only: 16, Force-only: 85, Both: 21
