@@ -47,7 +47,7 @@ for i, d in enumerate(ensemble_dirs):
     axes[i].text(0.001, 0.019, f'{d} members', fontsize=18, ha='left', va='top')
 
     # Add metrics text just below the title, left-aligned
-    axes[i].text(0.001, 0.016, f'R²={r2:.2f}\nCalib. error={calibration_error:.3f}',
+    axes[i].text(0.001, 0.016, f'R²={r2:.2f}\nMAE={calibration_error:.3f}',
                  fontsize=14, ha='left', va='top',
                  bbox=dict(facecolor='white', alpha=0.5, edgecolor='none'))
 
