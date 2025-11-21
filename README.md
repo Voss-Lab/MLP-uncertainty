@@ -15,6 +15,7 @@ The `scripts/` folder organizes all supporting code used throughout the MLP work
 - `data_generation` structure files used in model initialization and benchmarking
 - `mlp_training` training and analysis of machine learning potentials
 - `global_uncertainty` analysis of uncertainty in ensemble predicted total energy
+- `uniqueness_analysis` cluster analysis of atomic environments in structured dataset 
 - `local_uncertainty` Investigations of uncertainty in atomic energy and forces, and associated structural analysis
 - `active_learning` retraining based on local energy uncertainty sampling
 
